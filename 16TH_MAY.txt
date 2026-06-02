@@ -1,0 +1,30 @@
+eg-
+ShoW DAtaBAsEs;
+ 
+ create database VITCampus1;
+ 
+ drop database VITcampUS1;
+ 
+ use vitCamPUS;
+ 
+ create table CSE(
+ sid int8,
+ sname varchar(50),
+ smarks int1
+ );
+  create table Mech(
+ sid int8,
+ sname varchar(50),
+ smarks int1
+ );
+  create table EEE(
+ sid int8,
+ sname varchar(50),
+ smarks int1
+ );
+ 
+ show tables from vitcampus;
+ 
+ select * from cse;
+ 
+ insert into cse values (109, 'Kiran',99); 
