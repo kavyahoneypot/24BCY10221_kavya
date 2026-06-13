@@ -1,0 +1,168 @@
+# KnowledgeVault: Smart Academic Resource Repository
+
+## Project Overview
+
+KnowledgeVault is a console-based academic resource management system developed using Java and MongoDB. The system enables students to store, organize, search, and manage educational resources such as notes, study materials, assignments, reference links, and learning documents. It provides an efficient way to categorize resources by subject, tags, and resource type, making academic content easy to retrieve and manage.
+
+---
+
+## Objective
+
+To develop a MongoDB-based system for storing, organizing, searching, and managing academic resources efficiently through a menu-driven console application.
+
+---
+
+## Technology Stack
+
+### Backend
+
+* Java
+
+### Database
+
+* MongoDB
+
+### Development Environment
+
+* VS Code
+* MongoDB Compass
+
+### Database Driver
+
+* MongoDB Java Driver
+
+---
+
+## System Modules
+
+### Module 1: Resource Management
+
+Functions:
+
+* Add Resource
+* View Resource
+* Update Resource
+* Delete Resource
+
+Description:
+This module allows users to maintain academic resources in the database.
+
+---
+
+### Module 2: Subject Categorization
+
+Functions:
+
+* Add Subject
+* View Resources by Subject
+* Filter Resources
+
+Description:
+Resources are organized according to academic subjects such as Java, MongoDB, Python, SQL, etc.
+
+---
+
+### Module 3: Tag Management
+
+Functions:
+
+* Add Tags
+* Search by Tags
+* View Related Resources
+
+Description:
+Users can attach multiple tags to resources for efficient classification and retrieval.
+
+---
+
+### Module 4: Search Engine
+
+Functions:
+
+* Search by Title
+* Search by Subject
+* Search by Keyword
+* Search by Tag
+
+Description:
+Provides quick retrieval of resources stored in the repository.
+
+---
+
+### Module 5: Favorites Management
+
+Functions:
+
+* Mark Resource as Favorite
+* View Favorite Resources
+
+Description:
+Allows users to maintain a list of important study materials.
+
+---
+
+### Module 6: Study Analytics
+
+Functions:
+
+* Total Resources Report
+* Subject-wise Resource Count
+* Most Frequently Used Subject
+
+Description:
+Generates simple reports and statistics from stored academic resources.
+
+---
+
+## Database Design
+
+### Collection: Resources
+
+Fields:
+
+* Resource ID
+* Title
+* Subject
+* Tags
+* Resource Type
+* Description
+* Date Added
+* Favorite Status
+
+Sample Document:
+
+{
+"title": "MongoDB Aggregation Pipeline",
+"subject": "MongoDB",
+"tags": ["aggregation", "pipeline", "database"],
+"resourceType": "Notes",
+"description": "Aggregation Framework Notes",
+"favorite": true
+}
+
+---
+
+## Expected Outcomes
+
+* Centralized academic resource storage
+* Faster retrieval of study materials
+* Better organization of educational content
+* Efficient subject and tag-based searching
+* Improved academic resource management
+
+---
+
+## Future Enhancements
+
+* Graphical User Interface (GUI)
+* User Authentication
+* Cloud Database Integration
+* File Upload Support
+* Recommendation System
+* Mobile Application Integration
+
+---
+
+## Conclusion
+
+KnowledgeVault provides an efficient and organized solution for managing academic resources using Java and MongoDB. The system demonstrates database operations, resource categorization, search functionality, and report generation while offering a practical application for students to manage learning materials effectively.
